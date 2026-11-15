@@ -1,0 +1,38 @@
+{
+  "type": "enode-stats",
+  "version": 1,
+  "label": "Enode · Stats",
+  "description": "Editable stats section for the Enode development site.",
+  "theme": "Enode",
+  "tags": ["marketing", "stats"],
+  "kind": "static",
+  "framework": "react",
+  "activation": "never",
+  "component": "View.tsx",
+  "fields": [
+    {
+      "key": "items",
+      "label": "Metrics",
+      "type": "list",
+      "fields": [
+        {
+          "key": "value",
+          "label": "Value",
+          "type": "text"
+        },
+        {
+          "key": "label",
+          "label": "Label",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "defaults": {
+    "items": []
+  },
+  "dependencies": {
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  }
+}

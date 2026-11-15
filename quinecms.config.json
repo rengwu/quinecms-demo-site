@@ -1,0 +1,8 @@
+{
+  "libraries": [],
+  "extensions": "extensions/enode",
+  "initialLayout": {
+    "id": "enode",
+    "version": 1
+  }
+}

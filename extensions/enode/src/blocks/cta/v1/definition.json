@@ -1,0 +1,44 @@
+{
+  "type": "enode-cta",
+  "version": 1,
+  "label": "Enode · Cta",
+  "description": "Editable cta section for the Enode development site.",
+  "theme": "Enode",
+  "tags": ["marketing", "cta"],
+  "kind": "static",
+  "framework": "react",
+  "activation": "never",
+  "component": "View.tsx",
+  "fields": [
+    {
+      "key": "heading",
+      "label": "Heading",
+      "type": "text"
+    },
+    {
+      "key": "description",
+      "label": "Description",
+      "type": "text",
+      "multiline": true
+    },
+    {
+      "key": "actionLabel",
+      "label": "Button label",
+      "type": "text"
+    },
+    {
+      "key": "actionUrl",
+      "label": "Button destination",
+      "type": "url"
+    }
+  ],
+  "defaults": {
+    "heading": "Ready to build on Enode?",
+    "actionLabel": "Talk to our team",
+    "actionUrl": "https://enode.com/contact"
+  },
+  "dependencies": {
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "formatVersion": 1,
+  "id": "media_preview_assets_jpg",
+  "name": "Preview Assets",
+  "original": {
+    "key": "enode/preview-assets.jpg",
+    "url": "/enode/preview-assets.jpg",
+    "mime": "image/jpeg",
+    "bytes": 114106
+  },
+  "variants": []
+}

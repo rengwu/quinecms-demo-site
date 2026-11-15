@@ -1,0 +1,25 @@
+{
+  "name": "quinecms-demo-site",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.34.1",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "node scripts/quinecms-demo.mjs dev --host 127.0.0.1",
+    "build": "node scripts/quinecms-demo.mjs build && pnpm check:demo",
+    "check": "node scripts/quinecms-demo.mjs check",
+    "validate:content": "node scripts/quinecms-demo.mjs validate",
+    "check:build": "node scripts/quinecms-demo.mjs check-build && pnpm check:demo",
+    "check:demo": "node scripts/check-demo.mjs",
+    "preview": "node scripts/quinecms-demo.mjs preview --host 127.0.0.1",
+    "wiki:build": "node docs/wiki/_build.mjs",
+    "wiki:check": "node docs/wiki/_build.mjs --check",
+    "setup:local": "node scripts/setup-local.mjs"
+  },
+  "dependencies": {
+    "quinecms": "git+https://github.com/rengwu/quinecms.git#cdb3c540c7043daa25a68cfda48642c6e9ee6628"
+  }
+}

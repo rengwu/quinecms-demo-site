@@ -1,0 +1,8 @@
+node_modules/
+.quinecms/
+dist/
+.env
+.env.*
+!.env.example
+docs/wiki/index.html
+.DS_Store

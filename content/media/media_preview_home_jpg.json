@@ -1,0 +1,12 @@
+{
+  "formatVersion": 1,
+  "id": "media_preview_home_jpg",
+  "name": "Preview Home",
+  "original": {
+    "key": "enode/preview-home.jpg",
+    "url": "/enode/preview-home.jpg",
+    "mime": "image/jpeg",
+    "bytes": 123468
+  },
+  "variants": []
+}

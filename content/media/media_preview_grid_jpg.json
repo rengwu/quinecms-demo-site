@@ -1,0 +1,12 @@
+{
+  "formatVersion": 1,
+  "id": "media_preview_grid_jpg",
+  "name": "Preview Grid",
+  "original": {
+    "key": "enode/preview-grid.jpg",
+    "url": "/enode/preview-grid.jpg",
+    "mime": "image/jpeg",
+    "bytes": 52424
+  },
+  "variants": []
+}

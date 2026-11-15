@@ -1,0 +1,263 @@
+{
+  "formatVersion": 1,
+  "id": "page_home",
+  "kind": "static",
+  "layoutId": "layout_main",
+  "path": "/",
+  "title": "Orchestrating energy for the next grid",
+  "blocks": [
+    {
+      "id": "block_001",
+      "type": "enode-hero",
+      "version": 1,
+      "props": {
+        "heading": "Orchestrating energy\nfor the next grid",
+        "variant": "home",
+        "actionLabel": "Talk to our team",
+        "actionUrl": "https://enode.com/contact",
+        "secondaryLabel": "Explore our platform",
+        "secondaryUrl": "/platform/overview",
+        "image": {
+          "mediaId": "media_hero_assets_jpg",
+          "alt": ""
+        },
+        "mobileImage": {
+          "mediaId": "media_hero_assets_square_jpg",
+          "alt": ""
+        },
+        "imageLabel": "PRODUCING  4.24 kW",
+        "imageCaption": "Connect every asset"
+      }
+    },
+    {
+      "id": "block_002",
+      "type": "enode-introduction",
+      "version": 1,
+      "props": {
+        "heading": "",
+        "description": "One platform for energy retailers and the teams that trade for them. Connect every asset, coordinate every home, and shape thousands as one."
+      }
+    },
+    {
+      "id": "block_003",
+      "type": "enode-logos",
+      "version": 1,
+      "props": {
+        "heading": "Trusted worldwide",
+        "items": [
+          {
+            "_rowId": "row-1",
+            "label": "ENGIE",
+            "image": {
+              "mediaId": "media_logo_engie_svg",
+              "alt": ""
+            }
+          },
+          {
+            "_rowId": "row-2",
+            "label": "E.ON",
+            "image": {
+              "mediaId": "media_logo_e_on_svg",
+              "alt": ""
+            }
+          },
+          {
+            "_rowId": "row-3",
+            "label": "Iberdrola",
+            "image": {
+              "mediaId": "media_logo_iberdrola_svg",
+              "alt": ""
+            }
+          },
+          {
+            "_rowId": "row-4",
+            "label": "Tibber",
+            "image": {
+              "mediaId": "media_logo_tibber_svg",
+              "alt": ""
+            }
+          },
+          {
+            "_rowId": "row-5",
+            "label": "Centrica",
+            "image": {
+              "mediaId": "media_logo_centrica_svg",
+              "alt": ""
+            }
+          },
+          {
+            "_rowId": "row-6",
+            "label": "Vattenfall",
+            "image": {
+              "mediaId": "media_logo_vattenfall_svg",
+              "alt": ""
+            }
+          },
+          {
+            "_rowId": "row-7",
+            "label": "Enel",
+            "image": {
+              "mediaId": "media_logo_enel_svg",
+              "alt": ""
+            }
+          },
+          {
+            "_rowId": "row-8",
+            "label": "Fortum",
+            "image": {
+              "mediaId": "media_logo_fortum_svg",
+              "alt": ""
+            }
+          },
+          {
+            "_rowId": "row-9",
+            "label": "Kaluza",
+            "image": {
+              "mediaId": "media_logo_kaluza_svg",
+              "alt": ""
+            }
+          },
+          {
+            "_rowId": "row-10",
+            "label": "EDP",
+            "image": {
+              "mediaId": "media_logo_edp_svg",
+              "alt": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "block_004",
+      "type": "enode-platform",
+      "version": 1,
+      "props": {
+        "heading": "You know what your market needs. Now build it.",
+        "hero": false,
+        "items": [
+          {
+            "_rowId": "row-1",
+            "letter": "A",
+            "title": "Asset connectivity",
+            "description": "One API for 1,000+ device models across 100+ brands.",
+            "url": "/platform/assets",
+            "image": {
+              "mediaId": "media_preview_assets_jpg",
+              "alt": ""
+            }
+          },
+          {
+            "_rowId": "row-2",
+            "letter": "H",
+            "title": "Home energy coordination",
+            "description": "Coordinate the home around tariffs, forecasts, and customer preferences.",
+            "url": "https://enode.com/platform/homes",
+            "image": {
+              "mediaId": "media_preview_home_jpg",
+              "alt": ""
+            }
+          },
+          {
+            "_rowId": "row-3",
+            "letter": "R",
+            "title": "Residential flexibility",
+            "description": "Bring connected homes together as a dispatchable energy resource.",
+            "url": "https://enode.com/platform/flexibility",
+            "image": {
+              "mediaId": "media_preview_grid_jpg",
+              "alt": ""
+            }
+          }
+        ],
+        "eyebrow": "The Enode platform",
+        "description": "Our platform connects assets, coordinates homes, and shapes how they respond to prices. Compose the parts you need and build what sets you apart.",
+        "actionLabel": "Explore our platform",
+        "actionUrl": "/platform/overview"
+      }
+    },
+    {
+      "id": "block_005",
+      "type": "enode-cards",
+      "version": 1,
+      "props": {
+        "heading": "One integration, every product",
+        "columns": 3,
+        "items": [
+          {
+            "_rowId": "row-1",
+            "title": "EV charging products",
+            "description": "Shift charging to the cheapest hours. Wake up to a full battery.",
+            "url": "https://enode.com/platform/homes",
+            "visual": "charging"
+          },
+          {
+            "_rowId": "row-2",
+            "title": "Home energy products",
+            "description": "Batteries, solar, and meters working together to make every kilowatt-hour count.",
+            "url": "https://enode.com/platform/homes",
+            "visual": "home"
+          },
+          {
+            "_rowId": "row-3",
+            "title": "Dispatchable flexibility",
+            "description": "Turn connected homes into a resource for day-ahead optimization and balancing.",
+            "url": "https://enode.com/platform/flexibility",
+            "visual": "grid"
+          }
+        ],
+        "eyebrow": "Use cases"
+      }
+    },
+    {
+      "id": "block_006",
+      "type": "enode-stats",
+      "version": 1,
+      "props": {
+        "items": [
+          {
+            "_rowId": "row-1",
+            "value": "1,000+",
+            "label": "Energy device models supported"
+          },
+          {
+            "_rowId": "row-2",
+            "value": "1.7M+",
+            "label": "Connected households"
+          },
+          {
+            "_rowId": "row-3",
+            "value": "5,000+ MW",
+            "label": "Controllable load on the platform"
+          }
+        ]
+      }
+    },
+    {
+      "id": "block_007",
+      "type": "enode-story",
+      "version": 1,
+      "props": {
+        "heading": "How Vattenfall cut EV charging costs by 50% for customers across Sweden",
+        "actionLabel": "Read the customer story",
+        "eyebrow": "Vattenfall",
+        "image": {
+          "mediaId": "media_hero_home_jpg",
+          "alt": ""
+        },
+        "url": "https://enode.com/customers/vattenfall"
+      }
+    },
+    {
+      "id": "block_008",
+      "type": "enode-cta",
+      "version": 1,
+      "props": {
+        "heading": "Ready to build on Enode?",
+        "actionLabel": "Talk to our team",
+        "actionUrl": "https://enode.com/contact",
+        "description": "Whether you’re launching your first smart charging feature or scaling residential flexibility, we’d like to hear from you."
+      }
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "type": "enode-tabs",
+  "version": 1,
+  "label": "Enode · Tabs",
+  "description": "Editable tabs section for the Enode development site.",
+  "theme": "Enode",
+  "tags": ["marketing", "tabs"],
+  "kind": "static",
+  "framework": "react",
+  "activation": "load",
+  "component": "View.tsx",
+  "fields": [
+    {
+      "key": "eyebrow",
+      "label": "Eyebrow",
+      "type": "text"
+    },
+    {
+      "key": "heading",
+      "label": "Heading",
+      "type": "text"
+    },
+    {
+      "key": "items",
+      "label": "Tabs",
+      "type": "list",
+      "fields": [
+        {
+          "key": "title",
+          "label": "Title",
+          "type": "text"
+        },
+        {
+          "key": "description",
+          "label": "Description",
+          "type": "text",
+          "multiline": true
+        },
+        {
+          "key": "visual",
+          "label": "Illustration",
+          "type": "select",
+          "options": [
+            {
+              "value": "api",
+              "label": "Api"
+            },
+            {
+              "value": "events",
+              "label": "Events"
+            },
+            {
+              "value": "charging",
+              "label": "Charging"
+            },
+            {
+              "value": "grid",
+              "label": "Grid"
+            },
+            {
+              "value": "home",
+              "label": "Home"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "defaults": {
+    "heading": "See the system clearly",
+    "items": []
+  },
+  "dependencies": {
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  }
+}

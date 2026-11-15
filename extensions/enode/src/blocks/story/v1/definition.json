@@ -1,0 +1,47 @@
+{
+  "type": "enode-story",
+  "version": 1,
+  "label": "Enode · Story",
+  "description": "Editable story section for the Enode development site.",
+  "theme": "Enode",
+  "tags": ["marketing", "story"],
+  "kind": "static",
+  "framework": "react",
+  "activation": "never",
+  "component": "View.tsx",
+  "fields": [
+    {
+      "key": "eyebrow",
+      "label": "Eyebrow",
+      "type": "text"
+    },
+    {
+      "key": "heading",
+      "label": "Heading",
+      "type": "text"
+    },
+    {
+      "key": "image",
+      "label": "Image",
+      "type": "media"
+    },
+    {
+      "key": "url",
+      "label": "Story destination",
+      "type": "url"
+    },
+    {
+      "key": "actionLabel",
+      "label": "Link label",
+      "type": "text"
+    }
+  ],
+  "defaults": {
+    "heading": "Customer story",
+    "actionLabel": "Read the story"
+  },
+  "dependencies": {
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  }
+}

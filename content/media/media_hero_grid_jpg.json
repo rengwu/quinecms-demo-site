@@ -1,0 +1,12 @@
+{
+  "formatVersion": 1,
+  "id": "media_hero_grid_jpg",
+  "name": "Hero Grid",
+  "original": {
+    "key": "enode/hero-grid.jpg",
+    "url": "/enode/hero-grid.jpg",
+    "mime": "image/jpeg",
+    "bytes": 278995
+  },
+  "variants": []
+}

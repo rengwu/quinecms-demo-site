@@ -1,0 +1,12 @@
+{
+  "formatVersion": 1,
+  "id": "media_hero_home_square_jpg",
+  "name": "Hero Home Square",
+  "original": {
+    "key": "enode/hero-home-square.jpg",
+    "url": "/enode/hero-home-square.jpg",
+    "mime": "image/jpeg",
+    "bytes": 367983
+  },
+  "variants": []
+}

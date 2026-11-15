@@ -1,0 +1,18 @@
+{
+  "id": "enode-local",
+  "engine": ">=0.3.0",
+  "blocks": [
+    "src/blocks/hero/v1",
+    "src/blocks/introduction/v1",
+    "src/blocks/logos/v1",
+    "src/blocks/platform/v1",
+    "src/blocks/cards/v1",
+    "src/blocks/stats/v1",
+    "src/blocks/story/v1",
+    "src/blocks/cta/v1",
+    "src/blocks/devices/v1",
+    "src/blocks/feature/v1",
+    "src/blocks/tabs/v1"
+  ],
+  "layouts": ["src/layouts/main/v1"]
+}

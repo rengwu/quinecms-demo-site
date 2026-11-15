@@ -1,0 +1,44 @@
+{
+  "type": "enode-logos",
+  "version": 1,
+  "label": "Enode · Logos",
+  "description": "Editable logos section for the Enode development site.",
+  "theme": "Enode",
+  "tags": ["marketing", "logos"],
+  "kind": "static",
+  "framework": "react",
+  "activation": "never",
+  "component": "View.tsx",
+  "fields": [
+    {
+      "key": "heading",
+      "label": "Heading",
+      "type": "text"
+    },
+    {
+      "key": "items",
+      "label": "Customer logos",
+      "type": "list",
+      "fields": [
+        {
+          "key": "label",
+          "label": "Label",
+          "type": "text"
+        },
+        {
+          "key": "image",
+          "label": "Logo",
+          "type": "media"
+        }
+      ]
+    }
+  ],
+  "defaults": {
+    "heading": "Trusted worldwide",
+    "items": []
+  },
+  "dependencies": {
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "formatVersion": 1,
+  "id": "media_logo_tibber_svg",
+  "name": "Logo Tibber",
+  "original": {
+    "key": "enode/logo-tibber.svg",
+    "url": "/enode/logo-tibber.svg",
+    "mime": "image/svg+xml",
+    "bytes": 3437
+  },
+  "variants": []
+}

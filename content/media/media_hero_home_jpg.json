@@ -1,0 +1,12 @@
+{
+  "formatVersion": 1,
+  "id": "media_hero_home_jpg",
+  "name": "Hero Home",
+  "original": {
+    "key": "enode/hero-home.jpg",
+    "url": "/enode/hero-home.jpg",
+    "mime": "image/jpeg",
+    "bytes": 562017
+  },
+  "variants": []
+}

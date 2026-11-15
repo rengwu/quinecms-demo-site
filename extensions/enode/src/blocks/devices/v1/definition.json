@@ -1,0 +1,92 @@
+{
+  "type": "enode-devices",
+  "version": 1,
+  "label": "Enode · Devices",
+  "description": "Editable devices section for the Enode development site.",
+  "theme": "Enode",
+  "tags": ["marketing", "devices"],
+  "kind": "static",
+  "framework": "react",
+  "activation": "never",
+  "component": "View.tsx",
+  "fields": [
+    {
+      "key": "eyebrow",
+      "label": "Eyebrow",
+      "type": "text"
+    },
+    {
+      "key": "heading",
+      "label": "Heading",
+      "type": "text"
+    },
+    {
+      "key": "description",
+      "label": "Description",
+      "type": "text",
+      "multiline": true
+    },
+    {
+      "key": "items",
+      "label": "Device categories",
+      "type": "list",
+      "fields": [
+        {
+          "key": "title",
+          "label": "Title",
+          "type": "text"
+        },
+        {
+          "key": "description",
+          "label": "Description",
+          "type": "text",
+          "multiline": true
+        },
+        {
+          "key": "icon",
+          "label": "Illustration",
+          "type": "select",
+          "options": [
+            {
+              "value": "ev",
+              "label": "Ev"
+            },
+            {
+              "value": "charger",
+              "label": "Charger"
+            },
+            {
+              "value": "battery",
+              "label": "Battery"
+            },
+            {
+              "value": "solar",
+              "label": "Solar"
+            },
+            {
+              "value": "hvac",
+              "label": "Hvac"
+            },
+            {
+              "value": "meter",
+              "label": "Meter"
+            }
+          ]
+        },
+        {
+          "key": "meta",
+          "label": "Coverage",
+          "type": "text"
+        }
+      ]
+    }
+  ],
+  "defaults": {
+    "heading": "Every device in the home. One integration.",
+    "items": []
+  },
+  "dependencies": {
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  }
+}

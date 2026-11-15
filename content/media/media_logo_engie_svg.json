@@ -1,0 +1,12 @@
+{
+  "formatVersion": 1,
+  "id": "media_logo_engie_svg",
+  "name": "Logo Engie",
+  "original": {
+    "key": "enode/logo-engie.svg",
+    "url": "/enode/logo-engie.svg",
+    "mime": "image/svg+xml",
+    "bytes": 1930
+  },
+  "variants": []
+}

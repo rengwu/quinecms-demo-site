@@ -1,0 +1,12 @@
+{
+  "formatVersion": 1,
+  "id": "media_logo_edp_svg",
+  "name": "Logo Edp",
+  "original": {
+    "key": "enode/logo-edp.svg",
+    "url": "/enode/logo-edp.svg",
+    "mime": "image/svg+xml",
+    "bytes": 3573
+  },
+  "variants": []
+}

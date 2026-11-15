@@ -1,0 +1,87 @@
+{
+  "type": "enode-hero",
+  "version": 1,
+  "label": "Enode · Hero",
+  "description": "Editable hero section for the Enode development site.",
+  "theme": "Enode",
+  "tags": ["marketing", "hero"],
+  "kind": "static",
+  "framework": "react",
+  "activation": "never",
+  "component": "View.tsx",
+  "fields": [
+    {
+      "key": "eyebrow",
+      "label": "Eyebrow",
+      "type": "text"
+    },
+    {
+      "key": "heading",
+      "label": "Heading",
+      "type": "text"
+    },
+    {
+      "key": "actionLabel",
+      "label": "Button label",
+      "type": "text"
+    },
+    {
+      "key": "actionUrl",
+      "label": "Button destination",
+      "type": "url"
+    },
+    {
+      "key": "secondaryLabel",
+      "label": "Secondary button label",
+      "type": "text"
+    },
+    {
+      "key": "secondaryUrl",
+      "label": "Secondary destination",
+      "type": "url"
+    },
+    {
+      "key": "image",
+      "label": "Hero image",
+      "type": "media"
+    },
+    {
+      "key": "mobileImage",
+      "label": "Mobile image",
+      "type": "media"
+    },
+    {
+      "key": "imageLabel",
+      "label": "Energy readout",
+      "type": "text"
+    },
+    {
+      "key": "imageCaption",
+      "label": "Photo caption",
+      "type": "text"
+    },
+    {
+      "key": "variant",
+      "label": "Style",
+      "type": "select",
+      "options": [
+        {
+          "value": "home",
+          "label": "Homepage"
+        },
+        {
+          "value": "assets",
+          "label": "Product page"
+        }
+      ]
+    }
+  ],
+  "defaults": {
+    "heading": "Orchestrating energy\nfor the next grid",
+    "variant": "home"
+  },
+  "dependencies": {
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  }
+}

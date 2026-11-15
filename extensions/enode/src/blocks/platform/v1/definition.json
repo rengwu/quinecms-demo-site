@@ -1,0 +1,87 @@
+{
+  "type": "enode-platform",
+  "version": 1,
+  "label": "Enode · Platform",
+  "description": "Editable platform section for the Enode development site.",
+  "theme": "Enode",
+  "tags": ["marketing", "platform"],
+  "kind": "static",
+  "framework": "react",
+  "activation": "never",
+  "component": "View.tsx",
+  "fields": [
+    {
+      "key": "eyebrow",
+      "label": "Eyebrow",
+      "type": "text"
+    },
+    {
+      "key": "heading",
+      "label": "Heading",
+      "type": "text"
+    },
+    {
+      "key": "description",
+      "label": "Description",
+      "type": "text",
+      "multiline": true
+    },
+    {
+      "key": "actionLabel",
+      "label": "Button label",
+      "type": "text"
+    },
+    {
+      "key": "actionUrl",
+      "label": "Button destination",
+      "type": "url"
+    },
+    {
+      "key": "hero",
+      "label": "Use as page hero",
+      "type": "toggle"
+    },
+    {
+      "key": "items",
+      "label": "Platform layers",
+      "type": "list",
+      "fields": [
+        {
+          "key": "letter",
+          "label": "Letter",
+          "type": "text"
+        },
+        {
+          "key": "title",
+          "label": "Title",
+          "type": "text"
+        },
+        {
+          "key": "description",
+          "label": "Description",
+          "type": "text",
+          "multiline": true
+        },
+        {
+          "key": "url",
+          "label": "Destination",
+          "type": "url"
+        },
+        {
+          "key": "image",
+          "label": "Image",
+          "type": "media"
+        }
+      ]
+    }
+  ],
+  "defaults": {
+    "heading": "Connect. Coordinate. Shape.",
+    "hero": false,
+    "items": []
+  },
+  "dependencies": {
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  }
+}

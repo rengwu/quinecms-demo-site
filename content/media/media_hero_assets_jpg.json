@@ -1,0 +1,12 @@
+{
+  "formatVersion": 1,
+  "id": "media_hero_assets_jpg",
+  "name": "Hero Assets",
+  "original": {
+    "key": "enode/hero-assets.jpg",
+    "url": "/enode/hero-assets.jpg",
+    "mime": "image/jpeg",
+    "bytes": 426853
+  },
+  "variants": []
+}

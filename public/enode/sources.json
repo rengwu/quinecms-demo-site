@@ -1,0 +1,122 @@
+[
+  {
+    "file": "enode-sans.woff2",
+    "url": "https://enode.com/assets/EnodeSans-VF-C7BOq13n.woff2",
+    "bytes": 63120
+  },
+  {
+    "file": "enode-mono.woff2",
+    "url": "https://enode.com/assets/EnodeMono-VF-BjMtb9TZ.woff2",
+    "bytes": 40420
+  },
+  {
+    "file": "hero-assets.jpg",
+    "url": "https://enode.com/media/heroes/hero-asset.jpg",
+    "bytes": 426853
+  },
+  {
+    "file": "hero-assets-square.jpg",
+    "url": "https://enode.com/media/heroes/hero-asset-square.jpg",
+    "bytes": 301653
+  },
+  {
+    "file": "hero-home.jpg",
+    "url": "https://enode.com/media/heroes/hero-home.jpg",
+    "bytes": 562017
+  },
+  {
+    "file": "hero-home-square.jpg",
+    "url": "https://enode.com/media/heroes/hero-home-square.jpg",
+    "bytes": 367983
+  },
+  {
+    "file": "hero-grid.jpg",
+    "url": "https://enode.com/media/heroes/hero-grid.jpg",
+    "bytes": 278995
+  },
+  {
+    "file": "hero-grid-square.jpg",
+    "url": "https://enode.com/media/heroes/hero-grid-square.jpg",
+    "bytes": 201359
+  },
+  {
+    "file": "preview-assets.jpg",
+    "url": "https://enode.com/media/previews/hero-asset.jpg",
+    "bytes": 114106
+  },
+  {
+    "file": "preview-home.jpg",
+    "url": "https://enode.com/media/previews/hero-home.jpg",
+    "bytes": 123468
+  },
+  {
+    "file": "preview-grid.jpg",
+    "url": "https://enode.com/media/previews/hero-grid.jpg",
+    "bytes": 52424
+  },
+  {
+    "file": "logo-lockup-white.svg",
+    "url": "https://enode.com/media/enode-logo-lockup-white.svg",
+    "bytes": 2020
+  },
+  {
+    "file": "favicon.svg",
+    "url": "https://enode.com/favicon.svg",
+    "bytes": 638
+  },
+  {
+    "file": "enode-wordmark.svg",
+    "url": "https://enode.com/",
+    "source": "inline header SVG; presentation class removed"
+  },
+  {
+    "file": "logo-engie.svg",
+    "url": "https://enode.com/",
+    "source": "inline customer SVG; presentation class/style removed"
+  },
+  {
+    "file": "logo-e-on.svg",
+    "url": "https://enode.com/",
+    "source": "inline customer SVG; presentation class/style removed"
+  },
+  {
+    "file": "logo-iberdrola.svg",
+    "url": "https://enode.com/",
+    "source": "inline customer SVG; presentation class/style removed"
+  },
+  {
+    "file": "logo-tibber.svg",
+    "url": "https://enode.com/",
+    "source": "inline customer SVG; presentation class/style removed"
+  },
+  {
+    "file": "logo-centrica.svg",
+    "url": "https://enode.com/",
+    "source": "inline customer SVG; presentation class/style removed"
+  },
+  {
+    "file": "logo-vattenfall.svg",
+    "url": "https://enode.com/",
+    "source": "inline customer SVG; presentation class/style removed"
+  },
+  {
+    "file": "logo-enel.svg",
+    "url": "https://enode.com/",
+    "source": "inline customer SVG; presentation class/style removed"
+  },
+  {
+    "file": "logo-fortum.svg",
+    "url": "https://enode.com/",
+    "source": "inline customer SVG; presentation class/style removed"
+  },
+  {
+    "file": "logo-kaluza.svg",
+    "url": "https://enode.com/",
+    "source": "inline customer SVG; presentation class/style removed"
+  },
+  {
+    "file": "logo-edp.svg",
+    "url": "https://enode.com/",
+    "source": "inline customer SVG; presentation class/style removed"
+  }
+]

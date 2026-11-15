@@ -1,0 +1,273 @@
+{
+  "formatVersion": 1,
+  "id": "page_platform",
+  "kind": "static",
+  "layoutId": "layout_dark",
+  "path": "/platform/overview",
+  "title": "Platform overview",
+  "blocks": [
+    {
+      "id": "block_101",
+      "type": "enode-platform",
+      "version": 1,
+      "props": {
+        "heading": "Connect. Coordinate. Shape.",
+        "hero": true,
+        "items": [
+          {
+            "_rowId": "row-1",
+            "letter": "A",
+            "title": "Asset connectivity",
+            "description": "One API for 1,000+ device models across 100+ brands.",
+            "url": "/platform/assets",
+            "image": {
+              "mediaId": "media_preview_assets_jpg",
+              "alt": ""
+            }
+          },
+          {
+            "_rowId": "row-2",
+            "letter": "H",
+            "title": "Home energy coordination",
+            "description": "Coordinate the home around tariffs, forecasts, and customer preferences.",
+            "url": "https://enode.com/platform/homes",
+            "image": {
+              "mediaId": "media_preview_home_jpg",
+              "alt": ""
+            }
+          },
+          {
+            "_rowId": "row-3",
+            "letter": "R",
+            "title": "Residential flexibility",
+            "description": "Bring connected homes together as a dispatchable energy resource.",
+            "url": "https://enode.com/platform/flexibility",
+            "image": {
+              "mediaId": "media_preview_grid_jpg",
+              "alt": ""
+            }
+          }
+        ],
+        "eyebrow": "The Enode platform",
+        "description": "One API surface that spans every layer. Connect devices across brands, coordinate the home, and turn distributed energy into flexibility at scale.",
+        "actionLabel": "Talk to our team",
+        "actionUrl": "https://enode.com/contact"
+      }
+    },
+    {
+      "id": "block_102",
+      "type": "enode-logos",
+      "version": 1,
+      "props": {
+        "heading": "Trusted worldwide",
+        "items": [
+          {
+            "_rowId": "row-1",
+            "label": "ENGIE",
+            "image": {
+              "mediaId": "media_logo_engie_svg",
+              "alt": ""
+            }
+          },
+          {
+            "_rowId": "row-2",
+            "label": "E.ON",
+            "image": {
+              "mediaId": "media_logo_e_on_svg",
+              "alt": ""
+            }
+          },
+          {
+            "_rowId": "row-3",
+            "label": "Iberdrola",
+            "image": {
+              "mediaId": "media_logo_iberdrola_svg",
+              "alt": ""
+            }
+          },
+          {
+            "_rowId": "row-4",
+            "label": "Tibber",
+            "image": {
+              "mediaId": "media_logo_tibber_svg",
+              "alt": ""
+            }
+          },
+          {
+            "_rowId": "row-5",
+            "label": "Centrica",
+            "image": {
+              "mediaId": "media_logo_centrica_svg",
+              "alt": ""
+            }
+          },
+          {
+            "_rowId": "row-6",
+            "label": "Vattenfall",
+            "image": {
+              "mediaId": "media_logo_vattenfall_svg",
+              "alt": ""
+            }
+          },
+          {
+            "_rowId": "row-7",
+            "label": "Enel",
+            "image": {
+              "mediaId": "media_logo_enel_svg",
+              "alt": ""
+            }
+          },
+          {
+            "_rowId": "row-8",
+            "label": "Fortum",
+            "image": {
+              "mediaId": "media_logo_fortum_svg",
+              "alt": ""
+            }
+          },
+          {
+            "_rowId": "row-9",
+            "label": "Kaluza",
+            "image": {
+              "mediaId": "media_logo_kaluza_svg",
+              "alt": ""
+            }
+          },
+          {
+            "_rowId": "row-10",
+            "label": "EDP",
+            "image": {
+              "mediaId": "media_logo_edp_svg",
+              "alt": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "block_103",
+      "type": "enode-cards",
+      "version": 1,
+      "props": {
+        "heading": "One powerful platform",
+        "columns": 3,
+        "items": [
+          {
+            "_rowId": "row-1",
+            "letter": "A",
+            "title": "Asset connectivity",
+            "description": "One API for 1,000+ device models across 100+ brands.",
+            "url": "/platform/assets",
+            "image": {
+              "mediaId": "media_preview_assets_jpg",
+              "alt": ""
+            }
+          },
+          {
+            "_rowId": "row-2",
+            "letter": "H",
+            "title": "Home energy coordination",
+            "description": "Coordinate the home around tariffs, forecasts, and customer preferences.",
+            "url": "https://enode.com/platform/homes",
+            "image": {
+              "mediaId": "media_preview_home_jpg",
+              "alt": ""
+            }
+          },
+          {
+            "_rowId": "row-3",
+            "letter": "R",
+            "title": "Residential flexibility",
+            "description": "Bring connected homes together as a dispatchable energy resource.",
+            "url": "https://enode.com/platform/flexibility",
+            "image": {
+              "mediaId": "media_preview_grid_jpg",
+              "alt": ""
+            }
+          }
+        ],
+        "eyebrow": "From device to grid",
+        "description": "Start with one device. Grow to grid scale. Each layer builds on the one below it."
+      }
+    },
+    {
+      "id": "block_104",
+      "type": "enode-cards",
+      "version": 1,
+      "props": {
+        "heading": "One integration surface for everything",
+        "columns": 2,
+        "items": [
+          {
+            "title": "REST API",
+            "description": "A consistent API for connectivity, coordination, and flexibility.",
+            "visual": "api",
+            "url": "https://platform.enode.com/api",
+            "_rowId": "row-1"
+          },
+          {
+            "title": "Webhook events",
+            "description": "Device changes and action outcomes, delivered as events.",
+            "visual": "events",
+            "url": "https://platform.enode.com/docs",
+            "_rowId": "row-2"
+          }
+        ],
+        "eyebrow": "Interfaces"
+      }
+    },
+    {
+      "id": "block_105",
+      "type": "enode-feature",
+      "version": 1,
+      "props": {
+        "heading": "Test everything before you ship",
+        "visual": "api",
+        "eyebrow": "Testing framework",
+        "description": "Virtual devices and a parallel sandbox let your team explore device states without physical hardware.",
+        "actionLabel": "Explore the developer guides",
+        "actionUrl": "https://platform.enode.com/docs"
+      }
+    },
+    {
+      "id": "block_106",
+      "type": "enode-tabs",
+      "version": 1,
+      "props": {
+        "heading": "See the system clearly",
+        "items": [
+          {
+            "title": "Session and history details",
+            "description": "Follow charging sessions and the actions behind them.",
+            "visual": "charging",
+            "_rowId": "row-1"
+          },
+          {
+            "title": "Asset management",
+            "description": "Explore connected assets and their live state.",
+            "visual": "home",
+            "_rowId": "row-2"
+          },
+          {
+            "title": "Analytics and insights",
+            "description": "See portfolio performance and connection growth.",
+            "visual": "grid",
+            "_rowId": "row-3"
+          }
+        ],
+        "eyebrow": "Support and operational tools"
+      }
+    },
+    {
+      "id": "block_107",
+      "type": "enode-cta",
+      "version": 1,
+      "props": {
+        "heading": "Start with a single API call",
+        "actionLabel": "Talk to our team",
+        "actionUrl": "https://enode.com/contact",
+        "description": "Your first connected device is minutes away. Tell us what you’re building and we’ll show you where to begin."
+      }
+    }
+  ]
+}

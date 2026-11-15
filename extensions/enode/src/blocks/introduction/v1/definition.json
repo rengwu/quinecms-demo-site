@@ -1,0 +1,48 @@
+{
+  "type": "enode-introduction",
+  "version": 1,
+  "label": "Enode · Introduction",
+  "description": "Editable introduction section for the Enode development site.",
+  "theme": "Enode",
+  "tags": ["marketing", "introduction"],
+  "kind": "static",
+  "framework": "react",
+  "activation": "never",
+  "component": "View.tsx",
+  "fields": [
+    {
+      "key": "eyebrow",
+      "label": "Eyebrow",
+      "type": "text"
+    },
+    {
+      "key": "heading",
+      "label": "Heading",
+      "type": "text"
+    },
+    {
+      "key": "description",
+      "label": "Description",
+      "type": "text",
+      "multiline": true
+    },
+    {
+      "key": "actionLabel",
+      "label": "Button label",
+      "type": "text"
+    },
+    {
+      "key": "actionUrl",
+      "label": "Button destination",
+      "type": "url"
+    }
+  ],
+  "defaults": {
+    "heading": "Built for the next grid",
+    "description": "Connect every asset. Coordinate every home."
+  },
+  "dependencies": {
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  }
+}

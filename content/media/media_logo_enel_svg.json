@@ -1,0 +1,12 @@
+{
+  "formatVersion": 1,
+  "id": "media_logo_enel_svg",
+  "name": "Logo Enel",
+  "original": {
+    "key": "enode/logo-enel.svg",
+    "url": "/enode/logo-enel.svg",
+    "mime": "image/svg+xml",
+    "bytes": 2200
+  },
+  "variants": []
+}

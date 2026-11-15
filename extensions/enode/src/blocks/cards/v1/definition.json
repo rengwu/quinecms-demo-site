@@ -1,0 +1,101 @@
+{
+  "type": "enode-cards",
+  "version": 1,
+  "label": "Enode · Cards",
+  "description": "Editable cards section for the Enode development site.",
+  "theme": "Enode",
+  "tags": ["marketing", "cards"],
+  "kind": "static",
+  "framework": "react",
+  "activation": "never",
+  "component": "View.tsx",
+  "fields": [
+    {
+      "key": "eyebrow",
+      "label": "Eyebrow",
+      "type": "text"
+    },
+    {
+      "key": "heading",
+      "label": "Heading",
+      "type": "text"
+    },
+    {
+      "key": "description",
+      "label": "Description",
+      "type": "text",
+      "multiline": true
+    },
+    {
+      "key": "columns",
+      "label": "Columns",
+      "type": "number",
+      "min": 2,
+      "max": 3
+    },
+    {
+      "key": "items",
+      "label": "Cards",
+      "type": "list",
+      "fields": [
+        {
+          "key": "title",
+          "label": "Title",
+          "type": "text"
+        },
+        {
+          "key": "description",
+          "label": "Description",
+          "type": "text",
+          "multiline": true
+        },
+        {
+          "key": "url",
+          "label": "Destination",
+          "type": "url"
+        },
+        {
+          "key": "image",
+          "label": "Image",
+          "type": "media"
+        },
+        {
+          "key": "visual",
+          "label": "Illustration",
+          "type": "select",
+          "options": [
+            {
+              "value": "charging",
+              "label": "Charging"
+            },
+            {
+              "value": "home",
+              "label": "Home"
+            },
+            {
+              "value": "grid",
+              "label": "Grid"
+            },
+            {
+              "value": "api",
+              "label": "Api"
+            },
+            {
+              "value": "events",
+              "label": "Events"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "defaults": {
+    "heading": "One integration, every product",
+    "columns": 3,
+    "items": []
+  },
+  "dependencies": {
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  }
+}

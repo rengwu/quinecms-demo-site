@@ -1,0 +1,85 @@
+{
+  "type": "enode-feature",
+  "version": 1,
+  "label": "Enode · Feature",
+  "description": "Editable feature section for the Enode development site.",
+  "theme": "Enode",
+  "tags": ["marketing", "feature"],
+  "kind": "static",
+  "framework": "react",
+  "activation": "never",
+  "component": "View.tsx",
+  "fields": [
+    {
+      "key": "eyebrow",
+      "label": "Eyebrow",
+      "type": "text"
+    },
+    {
+      "key": "heading",
+      "label": "Heading",
+      "type": "text"
+    },
+    {
+      "key": "description",
+      "label": "Description",
+      "type": "text",
+      "multiline": true
+    },
+    {
+      "key": "actionLabel",
+      "label": "Button label",
+      "type": "text"
+    },
+    {
+      "key": "actionUrl",
+      "label": "Button destination",
+      "type": "url"
+    },
+    {
+      "key": "image",
+      "label": "Image",
+      "type": "media"
+    },
+    {
+      "key": "visual",
+      "label": "Illustration",
+      "type": "select",
+      "options": [
+        {
+          "value": "api",
+          "label": "Api"
+        },
+        {
+          "value": "events",
+          "label": "Events"
+        },
+        {
+          "value": "charging",
+          "label": "Charging"
+        },
+        {
+          "value": "grid",
+          "label": "Grid"
+        },
+        {
+          "value": "home",
+          "label": "Home"
+        }
+      ]
+    },
+    {
+      "key": "reverse",
+      "label": "Image on the left",
+      "type": "toggle"
+    }
+  ],
+  "defaults": {
+    "heading": "One unified API",
+    "visual": "api"
+  },
+  "dependencies": {
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  }
+}

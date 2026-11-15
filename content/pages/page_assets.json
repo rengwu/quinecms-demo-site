@@ -1,0 +1,236 @@
+{
+  "formatVersion": 1,
+  "id": "page_assets",
+  "kind": "static",
+  "layoutId": "layout_main",
+  "path": "/platform/assets",
+  "title": "Asset connectivity",
+  "blocks": [
+    {
+      "id": "block_108",
+      "type": "enode-hero",
+      "version": 1,
+      "props": {
+        "heading": "Thousands of energy assets,\none unified API",
+        "variant": "assets",
+        "eyebrow": "Asset connectivity",
+        "image": {
+          "mediaId": "media_hero_assets_jpg"
+        },
+        "mobileImage": {
+          "mediaId": "media_hero_assets_square_jpg"
+        },
+        "imageLabel": "PRODUCING  4.24 kW",
+        "imageCaption": "Every device. One connection."
+      }
+    },
+    {
+      "id": "block_109",
+      "type": "enode-introduction",
+      "version": 1,
+      "props": {
+        "heading": "",
+        "description": "Your customers own devices from hundreds of brands. Connect them through one integration, without building each vendor connection yourself."
+      }
+    },
+    {
+      "id": "block_110",
+      "type": "enode-logos",
+      "version": 1,
+      "props": {
+        "heading": "Trusted worldwide",
+        "items": [
+          {
+            "_rowId": "row-1",
+            "label": "ENGIE",
+            "image": {
+              "mediaId": "media_logo_engie_svg",
+              "alt": ""
+            }
+          },
+          {
+            "_rowId": "row-2",
+            "label": "E.ON",
+            "image": {
+              "mediaId": "media_logo_e_on_svg",
+              "alt": ""
+            }
+          },
+          {
+            "_rowId": "row-3",
+            "label": "Iberdrola",
+            "image": {
+              "mediaId": "media_logo_iberdrola_svg",
+              "alt": ""
+            }
+          },
+          {
+            "_rowId": "row-4",
+            "label": "Tibber",
+            "image": {
+              "mediaId": "media_logo_tibber_svg",
+              "alt": ""
+            }
+          },
+          {
+            "_rowId": "row-5",
+            "label": "Centrica",
+            "image": {
+              "mediaId": "media_logo_centrica_svg",
+              "alt": ""
+            }
+          },
+          {
+            "_rowId": "row-6",
+            "label": "Vattenfall",
+            "image": {
+              "mediaId": "media_logo_vattenfall_svg",
+              "alt": ""
+            }
+          },
+          {
+            "_rowId": "row-7",
+            "label": "Enel",
+            "image": {
+              "mediaId": "media_logo_enel_svg",
+              "alt": ""
+            }
+          },
+          {
+            "_rowId": "row-8",
+            "label": "Fortum",
+            "image": {
+              "mediaId": "media_logo_fortum_svg",
+              "alt": ""
+            }
+          },
+          {
+            "_rowId": "row-9",
+            "label": "Kaluza",
+            "image": {
+              "mediaId": "media_logo_kaluza_svg",
+              "alt": ""
+            }
+          },
+          {
+            "_rowId": "row-10",
+            "label": "EDP",
+            "image": {
+              "mediaId": "media_logo_edp_svg",
+              "alt": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "block_111",
+      "type": "enode-devices",
+      "version": 1,
+      "props": {
+        "heading": "Every device in the home.\nOne integration.",
+        "items": [
+          {
+            "title": "Electric vehicles",
+            "description": "Read battery state and coordinate charging.",
+            "icon": "ev",
+            "meta": "48 brands · 389 models",
+            "_rowId": "row-1"
+          },
+          {
+            "title": "EV chargers",
+            "description": "Control charging directly or pair a charger with its vehicle.",
+            "icon": "charger",
+            "meta": "18 brands · 54 models",
+            "_rowId": "row-2"
+          },
+          {
+            "title": "Home batteries",
+            "description": "Manage charging, discharging, and stored energy.",
+            "icon": "battery",
+            "meta": "11 brands · 56 models",
+            "_rowId": "row-3"
+          },
+          {
+            "title": "Solar inverters",
+            "description": "Understand production and control grid exports.",
+            "icon": "solar",
+            "meta": "24 brands · 363 models",
+            "_rowId": "row-4"
+          },
+          {
+            "title": "HVAC",
+            "description": "Set temperatures and modes across manufacturers.",
+            "icon": "hvac",
+            "meta": "17 brands · 130 models",
+            "_rowId": "row-5"
+          },
+          {
+            "title": "Home meters",
+            "description": "See the energy flowing through the whole home.",
+            "icon": "meter",
+            "meta": "11 brands · 33 models",
+            "_rowId": "row-6"
+          }
+        ],
+        "eyebrow": "Asset categories",
+        "description": "Read state, send commands, and understand each device’s capabilities."
+      }
+    },
+    {
+      "id": "block_112",
+      "type": "enode-feature",
+      "version": 1,
+      "props": {
+        "heading": "Where devices become systems",
+        "visual": "api",
+        "eyebrow": "Asset systems",
+        "description": "Pair chargers with vehicles. Bring batteries, solar, and meters into one home energy system.",
+        "image": {
+          "mediaId": "media_hero_home_jpg"
+        }
+      }
+    },
+    {
+      "id": "block_113",
+      "type": "enode-feature",
+      "version": 1,
+      "props": {
+        "heading": "Let us handle the complexity",
+        "visual": "api",
+        "eyebrow": "Normalized data",
+        "description": "A common schema, shared commands, and events across different brands.",
+        "reverse": true,
+        "actionLabel": "Explore the API",
+        "actionUrl": "https://platform.enode.com/api"
+      }
+    },
+    {
+      "id": "block_114",
+      "type": "enode-feature",
+      "version": 1,
+      "props": {
+        "heading": "The full repertoire",
+        "visual": "api",
+        "eyebrow": "Supported brands",
+        "description": "Connect the brands your customers already own, from BMW and Sungrow to Zaptec and Legrand.",
+        "image": {
+          "mediaId": "media_hero_grid_jpg"
+        },
+        "actionLabel": "View all supported brands",
+        "actionUrl": "https://platform.enode.com/brands"
+      }
+    },
+    {
+      "id": "block_115",
+      "type": "enode-cta",
+      "version": 1,
+      "props": {
+        "heading": "Start with a single API call",
+        "actionLabel": "Talk to our team",
+        "actionUrl": "https://enode.com/contact",
+        "description": "Your first connected device is minutes away. Tell us what you’re building and we’ll show you where to begin."
+      }
+    }
+  ]
+}

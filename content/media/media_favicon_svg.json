@@ -1,0 +1,12 @@
+{
+  "formatVersion": 1,
+  "id": "media_favicon_svg",
+  "name": "Favicon",
+  "original": {
+    "key": "enode/favicon.svg",
+    "url": "/enode/favicon.svg",
+    "mime": "image/svg+xml",
+    "bytes": 638
+  },
+  "variants": []
+}

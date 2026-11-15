@@ -1,0 +1,12 @@
+{
+  "formatVersion": 1,
+  "id": "media_enode_wordmark_svg",
+  "name": "Enode Wordmark",
+  "original": {
+    "key": "enode/enode-wordmark.svg",
+    "url": "/enode/enode-wordmark.svg",
+    "mime": "image/svg+xml",
+    "bytes": 2577
+  },
+  "variants": []
+}
