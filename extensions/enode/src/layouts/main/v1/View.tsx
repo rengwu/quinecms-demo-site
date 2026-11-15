@@ -83,7 +83,7 @@ export default function EnodeLayout({
             {linkList(navigation)}
           </nav>
           <div className="enode-header-actions">
-            <a className="enode-signin" href="https://platform.enode.com/">
+            <a className="enode-signin" href="/">
               Sign in
             </a>
             <a className="enode-button" href={url(settings.contactUrl)}>

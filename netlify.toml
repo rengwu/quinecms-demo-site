@@ -3,5 +3,6 @@
   command = "pnpm build"
   publish = "dist"
 
-# Configure environment variables in Netlify's project settings.
+# Set NODE_VERSION=24 in Netlify's project settings.
+# Public demo credentials default in scripts/demo-env.mjs; no credential overrides are required.
 # This is a static site; no Functions directory is required.

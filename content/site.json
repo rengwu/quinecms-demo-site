@@ -16,7 +16,7 @@
           "tagline": "Composing energy",
           "theme": "light",
           "contactLabel": "Talk to our team",
-          "contactUrl": "https://enode.com/contact",
+          "contactUrl": "/contact",
           "platform": [
             {
               "_rowId": "row-1",
@@ -31,105 +31,105 @@
             {
               "_rowId": "row-3",
               "label": "Home energy coordination",
-              "url": "https://enode.com/platform/homes"
+              "url": "/platform/homes"
             },
             {
               "_rowId": "row-4",
               "label": "Residential flexibility",
-              "url": "https://enode.com/platform/flexibility"
+              "url": "/platform/flexibility"
             }
           ],
           "resources": [
             {
               "_rowId": "row-1",
               "label": "For enterprises",
-              "url": "https://enode.com/enterprise"
+              "url": "/enterprise"
             },
             {
               "_rowId": "row-2",
               "label": "Customers",
-              "url": "https://enode.com/customers"
+              "url": "/customers"
             },
             {
               "_rowId": "row-3",
               "label": "Partnerships",
-              "url": "https://enode.com/partnerships"
+              "url": "/partnerships"
             },
             {
               "_rowId": "row-4",
               "label": "Updates",
-              "url": "https://enode.com/updates"
+              "url": "/updates"
             }
           ],
           "navigation": [
             {
               "_rowId": "row-1",
               "label": "Enterprise",
-              "url": "https://enode.com/enterprise"
+              "url": "/enterprise"
             },
             {
               "_rowId": "row-2",
               "label": "Updates",
-              "url": "https://enode.com/updates"
+              "url": "/updates"
             },
             {
               "_rowId": "row-3",
               "label": "Company",
-              "url": "https://enode.com/company"
+              "url": "/company"
             }
           ],
           "developers": [
             {
               "_rowId": "row-1",
               "label": "API reference",
-              "url": "https://platform.enode.com/api"
+              "url": "/api"
             },
             {
               "_rowId": "row-2",
               "label": "Guides",
-              "url": "https://platform.enode.com/docs"
+              "url": "/docs"
             },
             {
               "_rowId": "row-3",
               "label": "Changelog",
-              "url": "https://platform.enode.com/changelog"
+              "url": "/changelog"
             },
             {
               "_rowId": "row-4",
               "label": "Dashboard",
-              "url": "https://platform.enode.com/"
+              "url": "/"
             },
             {
               "_rowId": "row-5",
               "label": "Supported brands",
-              "url": "https://platform.enode.com/brands"
+              "url": "/brands"
             },
             {
               "_rowId": "row-6",
               "label": "Status",
-              "url": "https://status.enode.com/"
+              "url": "/"
             }
           ],
           "company": [
             {
               "_rowId": "row-1",
               "label": "About us",
-              "url": "https://enode.com/company"
+              "url": "/company"
             },
             {
               "_rowId": "row-2",
               "label": "Careers",
-              "url": "https://enode.com/careers"
+              "url": "/careers"
             },
             {
               "_rowId": "row-3",
               "label": "Newsroom",
-              "url": "https://enode.com/newsroom"
+              "url": "/newsroom"
             },
             {
               "_rowId": "row-4",
               "label": "Privacy policy",
-              "url": "https://enode.com/privacy-policy"
+              "url": "/privacy-policy"
             }
           ]
         }
@@ -148,7 +148,7 @@
           "tagline": "Composing energy",
           "theme": "dark",
           "contactLabel": "Talk to our team",
-          "contactUrl": "https://enode.com/contact",
+          "contactUrl": "/contact",
           "platform": [
             {
               "_rowId": "row-1",
@@ -163,105 +163,105 @@
             {
               "_rowId": "row-3",
               "label": "Home energy coordination",
-              "url": "https://enode.com/platform/homes"
+              "url": "/platform/homes"
             },
             {
               "_rowId": "row-4",
               "label": "Residential flexibility",
-              "url": "https://enode.com/platform/flexibility"
+              "url": "/platform/flexibility"
             }
           ],
           "resources": [
             {
               "_rowId": "row-1",
               "label": "For enterprises",
-              "url": "https://enode.com/enterprise"
+              "url": "/enterprise"
             },
             {
               "_rowId": "row-2",
               "label": "Customers",
-              "url": "https://enode.com/customers"
+              "url": "/customers"
             },
             {
               "_rowId": "row-3",
               "label": "Partnerships",
-              "url": "https://enode.com/partnerships"
+              "url": "/partnerships"
             },
             {
               "_rowId": "row-4",
               "label": "Updates",
-              "url": "https://enode.com/updates"
+              "url": "/updates"
             }
           ],
           "navigation": [
             {
               "_rowId": "row-1",
               "label": "Enterprise",
-              "url": "https://enode.com/enterprise"
+              "url": "/enterprise"
             },
             {
               "_rowId": "row-2",
               "label": "Updates",
-              "url": "https://enode.com/updates"
+              "url": "/updates"
             },
             {
               "_rowId": "row-3",
               "label": "Company",
-              "url": "https://enode.com/company"
+              "url": "/company"
             }
           ],
           "developers": [
             {
               "_rowId": "row-1",
               "label": "API reference",
-              "url": "https://platform.enode.com/api"
+              "url": "/api"
             },
             {
               "_rowId": "row-2",
               "label": "Guides",
-              "url": "https://platform.enode.com/docs"
+              "url": "/docs"
             },
             {
               "_rowId": "row-3",
               "label": "Changelog",
-              "url": "https://platform.enode.com/changelog"
+              "url": "/changelog"
             },
             {
               "_rowId": "row-4",
               "label": "Dashboard",
-              "url": "https://platform.enode.com/"
+              "url": "/"
             },
             {
               "_rowId": "row-5",
               "label": "Supported brands",
-              "url": "https://platform.enode.com/brands"
+              "url": "/brands"
             },
             {
               "_rowId": "row-6",
               "label": "Status",
-              "url": "https://status.enode.com/"
+              "url": "/"
             }
           ],
           "company": [
             {
               "_rowId": "row-1",
               "label": "About us",
-              "url": "https://enode.com/company"
+              "url": "/company"
             },
             {
               "_rowId": "row-2",
               "label": "Careers",
-              "url": "https://enode.com/careers"
+              "url": "/careers"
             },
             {
               "_rowId": "row-3",
               "label": "Newsroom",
-              "url": "https://enode.com/newsroom"
+              "url": "/newsroom"
             },
             {
               "_rowId": "row-4",
               "label": "Privacy policy",
-              "url": "https://enode.com/privacy-policy"
+              "url": "/privacy-policy"
             }
           ]
         }

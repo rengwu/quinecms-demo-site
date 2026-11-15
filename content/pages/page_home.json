@@ -14,7 +14,7 @@
         "heading": "Orchestrating energy\nfor the next grid",
         "variant": "home",
         "actionLabel": "Talk to our team",
-        "actionUrl": "https://enode.com/contact",
+        "actionUrl": "/contact",
         "secondaryLabel": "Explore our platform",
         "secondaryUrl": "/platform/overview",
         "image": {
@@ -152,7 +152,7 @@
             "letter": "H",
             "title": "Home energy coordination",
             "description": "Coordinate the home around tariffs, forecasts, and customer preferences.",
-            "url": "https://enode.com/platform/homes",
+            "url": "/platform/homes",
             "image": {
               "mediaId": "media_preview_home_jpg",
               "alt": ""
@@ -163,7 +163,7 @@
             "letter": "R",
             "title": "Residential flexibility",
             "description": "Bring connected homes together as a dispatchable energy resource.",
-            "url": "https://enode.com/platform/flexibility",
+            "url": "/platform/flexibility",
             "image": {
               "mediaId": "media_preview_grid_jpg",
               "alt": ""
@@ -188,21 +188,21 @@
             "_rowId": "row-1",
             "title": "EV charging products",
             "description": "Shift charging to the cheapest hours. Wake up to a full battery.",
-            "url": "https://enode.com/platform/homes",
+            "url": "/platform/homes",
             "visual": "charging"
           },
           {
             "_rowId": "row-2",
             "title": "Home energy products",
             "description": "Batteries, solar, and meters working together to make every kilowatt-hour count.",
-            "url": "https://enode.com/platform/homes",
+            "url": "/platform/homes",
             "visual": "home"
           },
           {
             "_rowId": "row-3",
             "title": "Dispatchable flexibility",
             "description": "Turn connected homes into a resource for day-ahead optimization and balancing.",
-            "url": "https://enode.com/platform/flexibility",
+            "url": "/platform/flexibility",
             "visual": "grid"
           }
         ],
@@ -245,7 +245,7 @@
           "mediaId": "media_hero_home_jpg",
           "alt": ""
         },
-        "url": "https://enode.com/customers/vattenfall"
+        "url": "/customers/vattenfall"
       }
     },
     {
@@ -255,7 +255,7 @@
       "props": {
         "heading": "Ready to build on Enode?",
         "actionLabel": "Talk to our team",
-        "actionUrl": "https://enode.com/contact",
+        "actionUrl": "/contact",
         "description": "Whether you’re launching your first smart charging feature or scaling residential flexibility, we’d like to hear from you."
       }
     }

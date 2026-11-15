@@ -30,7 +30,7 @@
             "letter": "H",
             "title": "Home energy coordination",
             "description": "Coordinate the home around tariffs, forecasts, and customer preferences.",
-            "url": "https://enode.com/platform/homes",
+            "url": "/platform/homes",
             "image": {
               "mediaId": "media_preview_home_jpg",
               "alt": ""
@@ -41,7 +41,7 @@
             "letter": "R",
             "title": "Residential flexibility",
             "description": "Bring connected homes together as a dispatchable energy resource.",
-            "url": "https://enode.com/platform/flexibility",
+            "url": "/platform/flexibility",
             "image": {
               "mediaId": "media_preview_grid_jpg",
               "alt": ""
@@ -51,7 +51,7 @@
         "eyebrow": "The Enode platform",
         "description": "One API surface that spans every layer. Connect devices across brands, coordinate the home, and turn distributed energy into flexibility at scale.",
         "actionLabel": "Talk to our team",
-        "actionUrl": "https://enode.com/contact"
+        "actionUrl": "/contact"
       }
     },
     {
@@ -168,7 +168,7 @@
             "letter": "H",
             "title": "Home energy coordination",
             "description": "Coordinate the home around tariffs, forecasts, and customer preferences.",
-            "url": "https://enode.com/platform/homes",
+            "url": "/platform/homes",
             "image": {
               "mediaId": "media_preview_home_jpg",
               "alt": ""
@@ -179,7 +179,7 @@
             "letter": "R",
             "title": "Residential flexibility",
             "description": "Bring connected homes together as a dispatchable energy resource.",
-            "url": "https://enode.com/platform/flexibility",
+            "url": "/platform/flexibility",
             "image": {
               "mediaId": "media_preview_grid_jpg",
               "alt": ""
@@ -202,14 +202,14 @@
             "title": "REST API",
             "description": "A consistent API for connectivity, coordination, and flexibility.",
             "visual": "api",
-            "url": "https://platform.enode.com/api",
+            "url": "/api",
             "_rowId": "row-1"
           },
           {
             "title": "Webhook events",
             "description": "Device changes and action outcomes, delivered as events.",
             "visual": "events",
-            "url": "https://platform.enode.com/docs",
+            "url": "/docs",
             "_rowId": "row-2"
           }
         ],
@@ -226,7 +226,7 @@
         "eyebrow": "Testing framework",
         "description": "Virtual devices and a parallel sandbox let your team explore device states without physical hardware.",
         "actionLabel": "Explore the developer guides",
-        "actionUrl": "https://platform.enode.com/docs"
+        "actionUrl": "/docs"
       }
     },
     {
@@ -265,7 +265,7 @@
       "props": {
         "heading": "Start with a single API call",
         "actionLabel": "Talk to our team",
-        "actionUrl": "https://enode.com/contact",
+        "actionUrl": "/contact",
         "description": "Your first connected device is minutes away. Tell us what you’re building and we’ll show you where to begin."
       }
     }

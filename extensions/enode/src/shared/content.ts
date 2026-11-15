@@ -9,9 +9,16 @@ export const rows = (value: unknown): Values[] =>
     : [];
 export function url(value: unknown) {
   const result = text(value).trim();
-  return /^(\/|#|https?:\/\/|mailto:)/i.test(result) && !result.startsWith("//")
-    ? result
-    : "#";
+  if (result.startsWith("#")) return result;
+  if (!/^(\/|https?:\/\/)/i.test(result)) return "#";
+  try {
+    // Keep every demo link on the current origin, including editor-entered URLs.
+    const { pathname, search, hash } = new URL(result, "https://demo.invalid");
+    // A path beginning with two slashes would otherwise become an external URL.
+    return `/${pathname.replace(/^\/+/, "")}${search}${hash}`;
+  } catch {
+    return "#";
+  }
 }
 export function media(value: Json | undefined, context: Context) {
   const id =

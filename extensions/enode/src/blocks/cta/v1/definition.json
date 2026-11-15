@@ -35,7 +35,7 @@
   "defaults": {
     "heading": "Ready to build on Enode?",
     "actionLabel": "Talk to our team",
-    "actionUrl": "https://enode.com/contact"
+    "actionUrl": "/contact"
   },
   "dependencies": {
     "react": "^19.3.0",

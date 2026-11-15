@@ -20,8 +20,12 @@ the installed dependency pinned to `cdb3c540c7043daa25a68cfda48642c6e9ee6628`.
 
 The pinned engine excludes Git and R2 configuration before encrypting the admin.
 It disables saving, publishing, and uploads while retaining local authoring and
-separate demo tab recovery. Site extensions remain trusted code; existing
-external marketing links retain their original destinations.
+separate demo tab recovery. Site extensions remain trusted code. Navigation,
+content links, and extension defaults use paths on the current origin. The shared
+link helper also converts absolute HTTP(S) and protocol-relative URLs entered in
+the editor to local paths, retaining query strings and fragments. Non-web schemes
+are disabled. Missing demo routes return the host's normal 404. Source URLs in the
+bundled asset manifest are provenance metadata, not navigation links.
 
 `pnpm build` runs an artifact check after the engine build. `pnpm check:demo`
 decrypts the actual admin with the configured login and requires `demo: true`,
@@ -39,8 +43,9 @@ Verified on 2026-11-15:
 
 - Installation succeeds with the frozen lockfile; only the engine revision and
   its package integrity changed from the source site's dependency graph.
-- All 26 content files, 31 extension files, 25 public assets, and the site
-  configuration match the development site byte for byte.
+- The initial copy retained all 26 content files, 31 extension files, 25 public
+  assets, and the site configuration. Navigation URLs and the shared link helper
+  now keep visitors on the demo origin.
 - Content validation passes. Source checking reports zero errors and warnings,
   with one existing unused-import hint in the pinned engine.
 - The production build generates all four routes and passes the engine's asset

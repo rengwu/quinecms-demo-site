@@ -51,9 +51,16 @@ so the demo settings and artifact verification run.
 For Netlify, the committed `netlify.toml` sets the repository root as the base,
 `pnpm build` as the build command, and `dist` as the publish directory. Select
 `main` as the branch to deploy; no Functions directory is needed. Netlify uses
-the pnpm version pinned in `package.json`. Set `NODE_VERSION=24`, `ADMIN_EMAIL`,
-and `ADMIN_PASSWORD` in Netlify's build environment. Demo mode remains enforced
-by the build command; no Git or R2 variables are needed.
+the pnpm version pinned in `package.json`. Set `NODE_VERSION=24` in Netlify's build
+environment. Leave `ADMIN_EMAIL` and `ADMIN_PASSWORD` unset to use the public demo
+login supplied by `scripts/demo-env.mjs`. Demo mode remains enforced by the build
+command; no Git or R2 variables are needed.
+
+If Netlify's secret scanner reports `ADMIN_PASSWORD` matches in repository text,
+remove the credential overrides from this demo project's Netlify environment and
+redeploy with the public defaults. Registering a public demo password as a secret
+can cause expected source text to be flagged. Keep secret scanning enabled; see
+[Netlify's secret scanning documentation](https://docs.netlify.com/build/environment-variables/secrets-controller/#secret-scanning-overview).
 
 | Route | Contents |
 | --- | --- |
@@ -75,9 +82,11 @@ Rebuild and redeploy to change the starting content for all visitors.
 - `quinecms.config.json` registers the site extension; no design library is needed.
 - `.quinecms/workspace/` and `dist/` are ignored generated output.
 
-The Enode content and assets are retained from the development site. Other
-marketing and contact links lead to Enode's live website. Demo mode protects the
-engine's Git and media operations; custom extensions remain trusted site code.
+The Enode content and assets are retained from the development site. All site
+navigation and content links stay on the current origin, including absolute URLs
+entered in the editor. Missing routes return the host's normal 404. The bundled
+asset source manifest records provenance only. Demo mode protects the engine's
+Git and media operations; custom extensions remain trusted site code.
 Shared engine changes belong in QuineCMS, followed by an intentional pin update.
 
 ## Documentation
