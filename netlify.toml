@@ -1,0 +1,7 @@
+[build]
+  base = "."
+  command = "pnpm build"
+  publish = "dist"
+
+# Configure environment variables in Netlify's project settings.
+# This is a static site; no Functions directory is required.

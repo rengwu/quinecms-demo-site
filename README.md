@@ -48,6 +48,13 @@ For static hosting, install with `pnpm install --frozen-lockfile`, build with
 Git token, R2 account, or secret is required. Use the repository's `pnpm` scripts
 so the demo settings and artifact verification run.
 
+For Netlify, the committed `netlify.toml` sets the repository root as the base,
+`pnpm build` as the build command, and `dist` as the publish directory. Select
+`main` as the branch to deploy; no Functions directory is needed. Netlify uses
+the pnpm version pinned in `package.json`. Set `NODE_VERSION=24`, `ADMIN_EMAIL`,
+and `ADMIN_PASSWORD` in Netlify's build environment. Demo mode remains enforced
+by the build command; no Git or R2 variables are needed.
+
 | Route | Contents |
 | --- | --- |
 | `/` | Enode homepage recreation |
